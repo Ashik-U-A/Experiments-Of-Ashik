@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "source-sans-pro";
+    font-weight: 700;
+    src: url("./Source_Sans_Pro//SourceSansPro-Black.ttf");
+}
+
+@font-face {
+    font-family: "source-sans-pro";
+    font-weight: 600;
+    src: url("./Source_Sans_Pro//SourceSansPro-Bold.ttf");
+}
+
+@font-face {
+    font-family: "source-sans-pro";
+    font-weight: 500;
+    src: url("./Source_Sans_Pro//SourceSansPro-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "source-sans-pro";
+    font-weight: 400;
+    src: url("./Source_Sans_Pro//SourceSansPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: "source-sans-pro";
+    font-weight: 300;
+    src: url("./Source_Sans_Pro//SourceSansPro-Light.ttf");
+}
+
+@font-face {
+    font-family: "source-sans-pro";
+    font-weight: 200;
+    src: url("./Source_Sans_Pro//SourceSansPro-ExtraLight.ttf");
+}

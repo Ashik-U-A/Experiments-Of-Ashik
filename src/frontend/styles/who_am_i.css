@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "source-sans-pro";
+}
+
+:host {
+    background: linear-gradient(90deg, #32393c, #222e33);
+}
+
+.who-am-i {
+    transition: all 0.3s;
+    position: relative;
+}
+
+.who-am-i .headline {
+    border-radius: 0 0 150px 0;
+    background: linear-gradient(90deg, #32393c, #222e33);
+    position: relative;
+    z-index: 15;
+}
+
+.who-am-i .the-rest {
+    background: #fff;
+    border-radius: 150px 0 0 0;
+    position: relative;
+    z-index: 10;
+}
+
+.who-am-i section {
+    margin: 0 10%;
+    padding: 50px;
+    display: grid;
+}
+
+.who-am-i section h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.who-am-i section .quote {
+    display: flex;
+    justify-self: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.who-am-i section .quote p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #333;
+    font-style: italic;
+    display: block;
+    margin-bottom: 5px;
+}
+.who-am-i section .quote label {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: right;
+}
+
+.who-am-i section > p {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #333;
+    text-align: justify;
+}
+
+.who-am-i .headline section h2 {
+    color: #ddd;
+}
+
+.who-am-i .headline section .quote p {
+    color: #eee;
+}
+.who-am-i .headline section .quote label {
+    color: #fff;
+}
+
+.who-am-i .headline section > p {
+    color: #ddd;
+}
+
+.who-am-i .whiteboard {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #fff;
+    z-index: 5;
+}
+
+@media (max-width: 600px) {
+    .who-am-i section {
+        margin: 0 3%;
+        padding: 50px 30px;
+        display: grid;
+    }
+}

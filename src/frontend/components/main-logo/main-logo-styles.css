@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    font-family: "source-sans-pro";
+    font-weight: 400;
+    display: flex;
+    transform-origin: left top;
+    color: #fff;
+    align-items: center;
+}
+
+#logo h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    display: inline-block;
+    text-shadow: 0 0 10px #fff, 0 0 1px #fff, 0 0px 5px #fff;
+    color: #fffea5;
+}
+
+#logo label {
+    font-size: 1.5rem;
+    font-weight: 300;
+    display: inline-block;
+    margin-left: 20px;
+    color: #ccc;
+}
+
+@media (max-width: 1000px) {
+    #logo label {
+        display: none;
+    }
+}

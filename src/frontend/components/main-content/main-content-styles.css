@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:host {
+    display: block;
+}
+
+.content {
+    transition: all 0.6s;
+    opacity: 1;
+}
+.content.fade {
+    opacity: 0;
+}

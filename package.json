@@ -1,0 +1,22 @@
+{
+    "name": "experiments-of-ashik",
+    "version": "1.0.0",
+    "description": "All my experiments in one capsule sized site",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./dist/backend/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "author": "Ashik U A",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "4.17.0",
+        "copy-webpack-plugin": "5.0.4",
+        "express": "4.17.1",
+        "ts-loader": "6.0.4",
+        "typescript": "3.5.3",
+        "webpack": "4.38.0",
+        "webpack-cli": "3.3.6"
+    }
+}

@@ -1,0 +1,30 @@
+* {
+    font-family: "source-sans-pro";
+    font-weight: 300;
+}
+.home {
+    margin: 0 10%;
+    padding: 40px 0;
+}
+
+.introduction {
+    display: grid;
+    grid-template-columns: minmax(25%, max-content) auto;
+}
+.introduction h3 {
+    font-size: 2rem;
+    color: #444;
+}
+
+@media (max-width: 1000px) {
+    .home {
+        margin: 0 5%;
+    }
+    .introduction {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .introduction h3 {
+        text-align: center;
+    }
+}

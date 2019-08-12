@@ -1,0 +1,106 @@
+.main-nav {
+    display: grid;
+    align-items: center;
+    grid-template-columns: max-content auto;
+    /* background: linear-gradient(45deg, #44002a -10%, transparent),
+        repeating-linear-gradient(
+            45deg,
+            rgba(220, 201, 230, 0.14) 0px,
+            rgba(220, 201, 230, 0.36) 50px,
+            transparent 50px,
+            transparent 100px
+        ),
+        repeating-linear-gradient(
+                120deg,
+                rgba(220, 201, 230, 0.1) 0px,
+                rgba(220, 201, 230, 0.5) 50px,
+                transparent 50px,
+                transparent 100px
+            )
+            rgb(0, 0, 0); */
+    background: linear-gradient(90deg, #32393c, #222e33);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s;
+    padding: 10px;
+
+    /* background: linear-gradient(45deg, #151113 -10%, transparent),
+    repeating-linear-gradient(
+        45deg,
+        rgba(18, 14, 21, 0) 0px,
+        rgba(0, 0, 0, 0.91) 25px,
+        transparent 26px,
+        transparent 100px
+    ),
+    repeating-linear-gradient(
+            120deg,
+            rgba(135, 0, 179, 0.35) 0px,
+            rgba(166, 126, 191, 0.5) 96px,
+            transparent 93px,
+            transparent 100px
+        )
+        rgb(0, 0, 0); */
+}
+.options {
+    list-style-type: none;
+    display: flex;
+    font-family: "source-sans-pro";
+    justify-self: right;
+    transition: all 0.3s;
+}
+.options > li {
+    margin: 0 20px;
+    color: #ccc;
+    font-weight: 300;
+    font-size: 0.95rem;
+    cursor: pointer;
+    text-shadow: none;
+    transition: all 0.4s;
+}
+
+.options > li:hover {
+    text-shadow: 0 0 1px #fff, 0 0px 7px #fff;
+    color: #fff;
+}
+
+.options > li.active {
+    text-shadow: 0 0 1px #fff, 0 0px 7px #fff, 0 0px 10px #fff;
+    color: #fff;
+}
+
+#menu-icon {
+    display: none;
+    justify-self: right;
+}
+#close-menu {
+    display: none;
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    .options {
+        display: block;
+        position: absolute;
+        margin: 0;
+        right: 0;
+        top: 0;
+        padding: 10px;
+        width: calc(100% - 20px);
+        background: linear-gradient(90deg, #32393c, #222e33);
+        z-index: 100;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    }
+    .options.inactive {
+        right: -100%;
+        box-shadow: none;
+    }
+    .options > li {
+        display: block;
+        margin: 10px 0;
+    }
+    #menu-icon {
+        display: inline-block;
+    }
+    #close-menu {
+        display: block;
+    }
+}
