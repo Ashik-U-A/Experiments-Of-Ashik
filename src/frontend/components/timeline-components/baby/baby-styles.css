@@ -1,0 +1,300 @@
+.eyes {
+    animation: blink 3s infinite;
+    -webkit-animation: blink 3s infinite;
+    -moz-animation: blink 3s infinite;
+    opacity: 0;
+}
+
+.eyelids {
+    animation: antiblink 3s infinite;
+    -webkit-animation: antiblink 3s infinite;
+    -moz-animation: antiblink 3s infinite;
+    opacity: 1;
+}
+
+#chewer {
+    animation: chew 0.5s infinite;
+    -webkit-animation: chew 0.5s infinite;
+    -moz-animation: chew 0.5s infinite;
+    position: relative;
+    transform: translate(0px, 0px);
+    opacity: 0;
+    transition: all 0.4s ease-in;
+}
+.baby #chewer {
+    opacity: 1;
+}
+
+#baby-body {
+    opacity: 0;
+}
+#baby-name-tag {
+    opacity: 0;
+}
+#baby-hair {
+    transform-origin: 248.313px 61.842px;
+    transform: scale(0, 0);
+    transition: all 1s;
+}
+#hair {
+    opacity: 0;
+    transition: all 0.5s;
+}
+.cheeks {
+    opacity: 0;
+    transition: all 1s;
+}
+.baby #baby-body {
+    opacity: 1;
+}
+.baby #baby-name-tag {
+    opacity: 1;
+}
+.baby .cheeks {
+    opacity: 1;
+}
+.baby #baby-hair {
+    transform: scale(1, 1);
+}
+
+#tcs-body {
+    opacity: 0;
+    transition: all 0.3s;
+}
+.tcs #tcs-body {
+    opacity: 1;
+}
+.tcs #hair {
+    opacity: 1;
+}
+
+@keyframes chew {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    20% {
+        transform: translate(0px, 5px);
+    }
+    50% {
+        transform: translate(0px, 5px);
+    }
+    90% {
+        transform: translate(0px, -5px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes chew {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    20% {
+        transform: translate(0px, 5px);
+    }
+    50% {
+        transform: translate(0px, 5px);
+    }
+    90% {
+        transform: translate(0px, -5px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+@-moz-keyframes chew {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    20% {
+        transform: translate(0px, 5px);
+    }
+    50% {
+        transform: translate(0px, 5px);
+    }
+    90% {
+        transform: translate(0px, -5px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes antiblink {
+    0% {
+        opacity: 1;
+    }
+    0.5% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    80.5% {
+        opacity: 1;
+    }
+    90.5% {
+        opacity: 1;
+    }
+    91% {
+        opacity: 0;
+    }
+    95.5% {
+        opacity: 0;
+    }
+    96% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes antiblink {
+    0% {
+        opacity: 1;
+    }
+    0.5% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    80.5% {
+        opacity: 1;
+    }
+    90.5% {
+        opacity: 1;
+    }
+    91% {
+        opacity: 0;
+    }
+    95.5% {
+        opacity: 0;
+    }
+    96% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes antiblink {
+    0% {
+        opacity: 1;
+    }
+    0.5% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    80.5% {
+        opacity: 1;
+    }
+    90.5% {
+        opacity: 1;
+    }
+    91% {
+        opacity: 0;
+    }
+    95.5% {
+        opacity: 0;
+    }
+    96% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    0.5% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    80.5% {
+        opacity: 0;
+    }
+    90.5% {
+        opacity: 0;
+    }
+    91% {
+        opacity: 1;
+    }
+    95.5% {
+        opacity: 1;
+    }
+    96% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    0.5% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    80.5% {
+        opacity: 0;
+    }
+    90.5% {
+        opacity: 0;
+    }
+    91% {
+        opacity: 1;
+    }
+    95.5% {
+        opacity: 1;
+    }
+    96% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    0.5% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    80.5% {
+        opacity: 0;
+    }
+    90.5% {
+        opacity: 0;
+    }
+    91% {
+        opacity: 1;
+    }
+    95.5% {
+        opacity: 1;
+    }
+    96% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}

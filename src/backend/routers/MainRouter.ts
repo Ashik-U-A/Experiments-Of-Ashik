@@ -34,4 +34,10 @@ MainRouter.get("/styles/:name.css", (req, res) => {
     })
     .get("/who_am_i", (req, res) => {
         res.sendFile(join(__dirname, "..", "frontend", "who_am_i.html"));
+    })
+    .get("/learnings", (req, res) => {
+        res.sendFile(join(__dirname, "..", "frontend", "learnings.html"));
+    })
+    .get("/experiments", (req, res) => {
+        res.sendFile(join(__dirname, "..", "frontend", "experiments.html"));
     });

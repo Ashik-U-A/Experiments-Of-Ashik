@@ -66,6 +66,10 @@ export class MainContent extends HTMLElement {
             link.remove();
         });
 
+        if (all_links.length === 0) {
+            this.shadowRoot.querySelector(".content").classList.remove("fade");
+        }
+
         all_scripts.forEach(script => {
             let s = script.getAttribute("src");
             if (s !== undefined && s !== null) {

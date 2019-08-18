@@ -14,6 +14,8 @@ let typescript_bundler = {
     ]
 };
 
+let _MODE = "production";
+
 module.exports = [
     //Frontend Code Compilation
     {
@@ -23,7 +25,7 @@ module.exports = [
             who_am_i_client: "./src/frontend/scripts/who_am_i.ts"
         },
         target: "node",
-        mode: "development",
+        mode: _MODE,
         node: {
             __dirname: false,
             __filename: true
@@ -68,7 +70,7 @@ module.exports = [
             server: "./src/backend/server.ts"
         },
         target: "node",
-        mode: "development",
+        mode: _MODE,
         node: {
             __dirname: false
         },

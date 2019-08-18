@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <radialGradient id="gradient-0" gradientUnits="userSpaceOnUse" cx="248.932" cy="433.956" r="115.935" gradientTransform="matrix(0.999863, 0.016552, -0.004456, 0.269185, 4.358517, 313.021179)">
+      <stop offset="0" style="stop-color: rgba(147, 147, 147, 0.68);"/>
+      <stop offset="1" style="stop-color: rgba(255, 255, 255, 0);"/>
+    </radialGradient>
+    <clipPath id="clip-0">
+      <ellipse style="fill: rgb(228, 227, 229);" cx="248.932" cy="322.017" rx="77.094" ry="112.658" transform="matrix(0.999892, -0.014671, 0.014671, 0.999892, -1.806961, 4.462728)">
+        <title>Body</title>
+      </ellipse>
+    </clipPath>
+    <mask id="mask-0">
+      <ellipse style="fill: rgb(228, 227, 229);" cx="248.932" cy="322.017" rx="77.094" ry="112.658" transform="matrix(0.999892, -0.014671, 0.014671, 0.999892, -1.806808, 5.183815)">
+        <title>Body</title>
+      </ellipse>
+    </mask>
+  </defs>
+  <ellipse style="fill: url(#gradient-0);" cx="251.323" cy="433.956" rx="115.935" ry="20.162">
+    <title>Shadow</title>
+  </ellipse>
+  <g>
+    <title>Body</title>
+    <rect x="173.084" y="336.57" width="157.477" height="100" style="mask: url(#mask-0); fill: rgb(5, 54, 105);">
+      <title>Pant</title>
+    </rect>
+    <rect x="173.084" y="209.016" width="157.477" height="126.263" style="clip-path: url(#clip-0); fill: rgb(217, 217, 217);">
+      <title>Shirt</title>
+    </rect>
+    <path d="M 191.098 61.922 L 202.724 82.059 L 179.471 82.059 L 191.098 61.922 Z" style="fill: rgb(57, 95, 145);" transform="matrix(0.495317, -0.868712, 0.868712, 0.495317, 92.209999, 444.240875)" bx:shape="triangle 179.471 61.922 23.253 20.137 0.5 0 1@efc80a00"/>
+    <path d="M 109.393 93.294 L 121.258 157.027 L 97.094 157.027 L 109.393 93.294 Z" style="fill: rgb(57, 95, 145);" transform="matrix(0.999999, -0.001176, 0.001022, 0.999999, 142.481384, 152.026688)" bx:shape="triangle 97.094 93.294 24.164 63.733 0.509 0 1@5fa4fb67"/>
+    <path d="M 194.457 64.117 L 206.288 84.968 L 182.626 84.968 L 194.457 64.117 Z" style="fill: rgb(51, 89, 139);" transform="matrix(0.483497, -0.875346, 0.875346, 0.483497, 89.783516, 379.89447)" bx:shape="triangle 182.626 64.117 23.662 20.851 0.5 0 1@0a4a42eb"/>
+    <path d="M 198.621 214.645 L 209.488 256.834 L 187.753 256.834 L 198.621 214.645 Z" style="fill: rgb(198, 196, 196);" transform="matrix(0.51921, -0.854647, 0.880953, 0.475909, -86.575371, 297.348206)" bx:shape="triangle 187.753 214.645 21.735 42.189 0.5 0 1@8d42f092"/>
+    <path d="M 198.621 214.645 L 209.488 256.834 L 187.753 256.834 L 198.621 214.645 Z" style="fill: rgb(198, 196, 196);" transform="matrix(0.426588, 0.904446, -0.882832, 0.472413, 401.130402, -50.687073)" bx:shape="triangle 187.753 214.645 21.735 42.189 0.5 0 1@8d42f092"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 2.390625, 0)">
+    <title>Head</title>
+    <circle style="fill: rgb(237, 199, 155);" cx="152.77" cy="143.392" r="18.195">
+      <title>Ear Left</title>
+    </circle>
+    <circle style="fill: rgb(237, 199, 155);" cx="342.64" cy="144.347" r="18.195">
+      <title>Ear Right</title>
+    </circle>
+    <circle style="fill: rgb(240, 198, 171);" cx="248.866" cy="145.295" r="95.848">
+      <title>Face</title>
+    </circle>
+    <g transform="matrix(1, 0, 0, 1, -1.512664, 0)" style="">
+      <title>Eye Left</title>
+      <circle style="fill: rgb(22, 21, 21);" cx="207.209" cy="121.15" r="21.15"/>
+      <circle style="fill: rgb(216, 216, 216);" cx="212.142" cy="114.028" r="6.959"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 84.709145, 0)" style="">
+      <title>Eye Right</title>
+      <circle style="fill: rgb(22, 21, 21);" cx="207.209" cy="121.15" r="21.15"/>
+      <circle style="fill: rgb(216, 216, 216);" cx="212.142" cy="114.028" r="6.959"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -215.911392, 43.21463)">
+      <title>EyeLids</title>
+      <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 5px; stroke-linecap: round; stroke-linejoin: round;" d="M 412.042 66.207 C 428.172 66.197 438.265 83.652 430.209 97.626 C 426.179 104.618 418.491 108.674 410.445 108.053" transform="matrix(0.030133, 0.999546, -0.999546, 0.030133, 496.156081, -337.016594)">
+        <title>Left</title>
+      </path>
+      <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 5px; stroke-linecap: round; stroke-linejoin: round;" d="M 498.835 66.207 C 514.965 66.197 525.059 83.652 517.002 97.626 C 512.972 104.618 505.284 108.674 497.238 108.053" transform="matrix(0.030133, 0.999546, -0.999546, 0.030133, 580.33394, -423.770378)">
+        <title>Right</title>
+      </path>
+    </g>
+    <ellipse style="fill: rgb(254, 120, 139); visibility: hidden;" cx="198.149" cy="179.201" rx="13.614" ry="20.799">
+      <title>Cheek Left</title>
+    </ellipse>
+    <ellipse style="fill: rgb(254, 120, 139); visibility: hidden;" cx="300.632" cy="179.201" rx="13.614" ry="20.799">
+      <title>Cheek Right</title>
+    </ellipse>
+    <g>
+      <title>Hair</title>
+    </g>
+    <path d="M 152.511 125.207 C 151.636 119.957 151.275 109.664 152.784 100 C 154.608 88.322 164.175 67.909 165.935 64.39 C 167.269 61.722 175.897 51.725 186.033 49.447 C 198.137 46.727 197.484 47.428 199.082 48.227 C 201.075 49.224 201.401 52.464 202.917 53.98 C 207.605 58.668 209.327 71.515 204.561 76.444 C 203.384 77.661 201.396 79.882 199.904 81.375 C 198.613 82.666 181.761 96.105 176.892 100 C 174.46 101.946 167.03 110.711 167.03 113.701 C 167.03 117.869 159.361 142.738 156.894 146.027 C 155.889 147.367 157.8 127.124 155.524 127.124" style="stroke: rgb(0, 0, 0); fill: rgb(35, 33, 32);"/>
+    <path d="M 308.113 78.362 C 308.765 80.966 311.529 92.388 313.866 95.894 C 315.353 98.125 319.308 102.904 320.989 105.209 C 327.67 114.37 327.67 105.862 334.412 113.701 C 339.588 119.719 339.893 145.681 340.714 146.091 C 341.447 146.457 342.083 127.125 343.179 126.029 C 344.2 125.008 346.267 128.419 347.288 127.398 C 347.631 127.055 347.836 118.194 347.836 115.345 C 347.836 114.925 345.777 95.742 345.371 94.525 C 343.672 89.43 344.28 84.683 342.905 79.183 C 341.877 75.071 337.34 72.343 334.96 68.773 C 334.112 67.501 332.283 67.74 331.399 66.856 C 324.888 60.345 306.744 62.702 306.744 74.526" style="stroke: rgb(0, 0, 0); fill: rgb(35, 33, 32);"/>
+    <path d="M 206.966 73.232 C 222.934 84.41 234.926 83.618 254.352 83.618 C 277.961 83.618 298.108 80.826 319.912 74.531 C 332.184 70.988 341.929 63.64 346.472 59.971 C 350.682 56.572 370.787 33.857 368.447 33.857 C 363.529 33.857 349.938 46.176 345.877 47.917 C 338.755 50.969 328.638 52.908 319.912 51.162 C 315.358 50.252 249.754 33.576 245.925 33.029 C 236.904 31.74 217.112 25.244 203.161 38.306 C 195.3 45.666 193.396 51.933 197.879 60.899" style="fill: rgb(35, 33, 32);"/>
+  </g>
+  <g>
+    <title>Mouth</title>
+    <ellipse style="fill: rgb(116, 35, 35);" cx="250.883" cy="192.097" rx="22.826" ry="7.903"/>
+    <ellipse style="fill: rgb(243, 77, 40);" cx="250.455" cy="195.88" rx="17.5" ry="4.12"/>
+  </g>
+  <g style="" transform="matrix(1.007419, 0, 0, 1, -4.341692, 0)">
+    <title>Belt</title>
+    <rect x="177.969" y="331.149" width="152.704" height="11.044" style="fill: rgb(25, 36, 57);" rx="5.522" ry="5.522"/>
+    <rect x="239.426" y="331.149" width="29.209" height="12.998" style="stroke: rgb(218, 191, 85); stroke-width: 4px; fill: rgb(25, 36, 57);" rx="6.304" ry="6.304"/>
+  </g>
+</svg>

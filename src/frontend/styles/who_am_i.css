@@ -4,10 +4,6 @@
     font-family: "source-sans-pro";
 }
 
-:host {
-    background: linear-gradient(90deg, #32393c, #222e33);
-}
-
 .who-am-i {
     transition: all 0.3s;
     position: relative;
@@ -93,10 +89,89 @@
     z-index: 5;
 }
 
+.who-am-i .blackboard {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #32393c;
+    z-index: 5;
+}
+
+.who-am-i .the-rest > section {
+    position: relative;
+}
+
+.who-am-i #backward,
+.who-am-i #forward {
+    position: absolute;
+    top: 50%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.who-am-i #backward {
+    left: -50px;
+}
+.who-am-i #forward {
+    right: -50px;
+}
+
+.who-am-i .scroll-timeline {
+    list-style-type: none;
+}
+.who-am-i .scroll-timeline > li {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.who-am-i .scroll-timeline > li .desc {
+    font-family: "source-sans-pro";
+}
+.who-am-i .scroll-timeline > li .desc h3 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    opacity: 1;
+    transition: all 0.4s;
+}
+.who-am-i .scroll-timeline > li .desc p {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #222;
+    padding: 0 0 20px 0;
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+.fade-out {
+    transition: opacity 0.4s;
+    opacity: 0 !important;
+}
+
 @media (max-width: 600px) {
     .who-am-i section {
         margin: 0 3%;
         padding: 50px 30px;
         display: grid;
+    }
+    .who-am-i .scroll-timeline > li {
+        grid-template-columns: 1fr;
+    }
+    .who-am-i #backward,
+    .who-am-i #forward {
+        top: 30%;
+        width: 50px;
+    }
+    .who-am-i #backward > svg,
+    .who-am-i #forward > svg {
+        width: 100%;
+    }
+    .who-am-i #backward {
+        left: calc(0px + 3%);
+    }
+    .who-am-i #forward {
+        right: calc(0px + 3%);
     }
 }
