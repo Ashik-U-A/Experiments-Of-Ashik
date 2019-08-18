@@ -1,4 +1,4 @@
-const timeline_points = ["baby", "tcs"];
+const timeline_points = ["baby", "tcs", "nissan"];
 let _TIMELINE_POINTER = 0;
 
 const _TIMELINE_DESCRIPTION = {
@@ -10,7 +10,12 @@ const _TIMELINE_DESCRIPTION = {
     tcs: {
         time: "2016 August",
         desc:
-            "He got into his first job after participating in a coding competition held by them (The TCS guys). Did some good work over there. (Get to know about his work <a>over here</a>)."
+            "He got into his first job after participating in a coding competition held by TCS. Did some good work over there. (Get to know about his work <a>over here</a>)."
+    },
+    nissan: {
+        time: "2018 November",
+        desc:
+            "Was sipping coffee when a friend called and told about a Coding competition conducted by Nissan. Attended the competition and got into Nissan as <strong>Software Engineer Level II</strong>. Get to know about his work @ Nissan over here."
     }
 };
 

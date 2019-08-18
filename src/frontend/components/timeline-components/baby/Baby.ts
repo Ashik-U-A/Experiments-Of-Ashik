@@ -23,10 +23,6 @@ export class Baby extends HTMLElement {
     }
 
     private change_baby_parts(value) {
-        if (value == "baby") {
-            this.shadowRoot.querySelector("#ashiku-image").className = "baby";
-        } else if (value == "tcs") {
-            this.shadowRoot.querySelector("#ashiku-image").className = "tcs";
-        }
+        this.shadowRoot.querySelector("#ashiku-image").className = value;
     }
 }

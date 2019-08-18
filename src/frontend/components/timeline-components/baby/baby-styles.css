@@ -61,11 +61,57 @@
     opacity: 0;
     transition: all 0.3s;
 }
-.tcs #tcs-body {
+.tcs #tcs-body,
+.nissan #tcs-body {
     opacity: 1;
 }
-.tcs #hair {
+.tcs #hair,
+.nissan #hair {
     opacity: 1;
+}
+
+.tcs #tie-01 {
+    fill: rgb(57, 95, 145);
+    transition: all 0.3s;
+}
+.tcs #tie-02 {
+    fill: rgb(57, 95, 145);
+    transition: all 0.3s;
+}
+.tcs #tie-03 {
+    fill: rgb(51, 89, 139);
+    transition: all 0.3s;
+}
+
+.nissan #tie-01 {
+    fill: rgb(145, 57, 57);
+    transition: all 0.3s;
+}
+.nissan #tie-02 {
+    fill: rgb(168, 0, 0);
+    transition: all 0.3s;
+}
+.nissan #tie-03 {
+    fill: rgb(161, 15, 15);
+    transition: all 0.3s;
+}
+
+.tcs #pant {
+    fill: rgb(5, 54, 105);
+    transition: all 0.3s;
+}
+.nissan #pant {
+    fill: rgb(28, 1, 7);
+    transition: all 0.3s;
+}
+
+#nissan-beard {
+    opacity: 0;
+    transition: all 0.3s;
+}
+.nissan #nissan-beard {
+    opacity: 1;
+    transition: all 0.3s;
 }
 
 @keyframes chew {
